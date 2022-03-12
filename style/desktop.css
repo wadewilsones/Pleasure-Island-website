@@ -1,0 +1,556 @@
+@media screen and (min-width:1001px){
+    header{
+        width:100%;
+        padding: 2em 0;
+        color:white;
+        background-color:#ff8800;
+   }
+    #header-container{
+        width:1000px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 60% 40%;
+   }
+    header p{
+        grid-column-start: 2;
+        grid-column-end:3 ;
+        font-size: 1.4em;
+        text-align: right;
+   }
+    header nav{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 1;
+   }
+    nav ul li{
+        display: inline-block;
+        margin: 0 0.5em;
+        font-size: 1.1em;
+        cursor: pointer;
+   }
+    nav ul li a{
+        color:white;
+        text-decoration: none;
+   }
+    nav ul li:hover{
+        text-decoration: underline;
+   }
+    #home {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        width:1000px;
+        margin: auto;
+        box-shadow: #a1a1a138 1px 1px 21px;
+   }
+    #home h1{
+        text-align: center;
+        margin: 1em 0;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 1.9em;
+        padding-left: 1em;
+   }
+    .search{
+        grid-column-start: 1;
+        grid-column-end: 3;
+   }
+    input[type = "search"]{
+        border: 2px solid rgba(104, 104, 104, 0.171);
+        box-shadow: rgba(190, 190, 190, 0.164) 1px 3px 5px;
+        width:440px;
+        height: 3em;
+        margin: 2em 0;
+        border-radius: 3px;
+        padding-left: 1em;
+   }
+    #home section:first-of-type{
+        text-align: center;
+        width:600px;
+        margin: auto;
+   }
+    input[type = "submit"]{
+        color:white;
+        width:100px;
+        height: 3em;
+        background-color: #ffac00;
+        margin-left: 1%;
+        border-radius: 3px;
+   }
+    #search input[type = "submit"]:hover{
+        background-color:#03A6FF;
+   }
+    #video{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        width:820px;
+        margin: auto;
+   }
+    #description{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width:95%;
+        margin: 1em 0 0 1.5em;
+        text-align: justify;
+   }
+    #description h2{
+        margin-bottom: 1em;
+   }
+    #read-more-btn{
+        display: none;
+   }
+   /*Aside section*/
+    aside{
+        grid-row-start: 4;
+        grid-row-end:5;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        width: 95%;
+        margin: 0 1em 0 1em;
+   }
+    aside h4{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 1.5em;
+   }
+    aside ul{
+        margin-top: 2em;
+        width:100%;
+   }
+    aside ul li{
+        line-height: 2;
+        text-align: center;
+        margin: 2em 0;
+        list-style-type: none;
+        font-weight: 600;
+        font-size: 1.5em;
+   }
+    aside img{
+        width:90%;
+   }
+    #restaurants{
+        width:1000px;
+        margin: auto;
+        box-shadow: #a1a1a138 1px 1px 21px;
+   }
+    #restaurants input[type = "search"]{
+        border: 2px solid rgba(104, 104, 104, 0.171);
+        box-shadow: rgba(190, 190, 190, 0.164) 1px 3px 5px;
+        width:440px;
+        height: 3em;
+        margin: 2em 0;
+        border-radius: 3px;
+        padding-left: 1em;
+   }
+    #restaurants section:first-of-type{
+        text-align: center;
+        width:600px;
+        margin: auto;
+   }
+    #restaurants input[type = "submit"]{
+        color:white;
+        width:100px;
+        height: 3em;
+        background-color: #ffac00;
+        margin-left: 1%;
+        border-radius: 3px;
+   }
+    #restaurants h1{
+        text-align: center;
+   }
+    #restaurants h3{
+        text-align: center;
+        width:90%;
+        margin: 1em auto 3em;
+        font-size: 1.2em;
+   }
+    #list-of-rest{
+        display: grid;
+        width: 1000px;
+        margin: auto;
+        grid-template-columns: 33% 33% 33%;
+   }
+    .food{
+        margin: 3em 0;
+        margin: auto;
+   }
+    .food h5{
+        text-align: center;
+        font-size: 1.3em;
+        line-height: 2;
+   }
+    .food ul li{
+        font-size: 0.8em;
+        text-align: center;
+        list-style-type: none;
+   }
+    .food a{
+        background-color: #ff8800;
+        width:180px;
+        color:white;
+        text-decoration: none;
+        padding: 1em 0em;
+        border-radius: 0.4em;
+        display:block;
+        text-align: center;
+        margin: 2em auto;
+   }
+    .food a:hover{
+        background-color: #ff7b00;
+   }
+    .food img{
+        width:90%;
+        display: block;
+        margin: auto;
+   }
+   /*Hotels*/
+    #hotels-stay{
+        width:1000px;
+        margin: auto;
+        box-shadow: #a1a1a138 1px 1px 21px;
+   }
+    #hotels-stay input[type = "search"]{
+        border: 2px solid rgba(104, 104, 104, 0.171);
+        box-shadow: rgba(190, 190, 190, 0.164) 1px 3px 5px;
+        width:440px;
+        height: 3em;
+        margin: 2em 0;
+        border-radius: 3px;
+        padding-left: 1em;
+   }
+    #hotels-stay section:first-of-type{
+        text-align: center;
+        width:600px;
+        margin: auto;
+   }
+    #hotels-stay input[type = "submit"]{
+        color:white;
+        width:100px;
+        height: 3em;
+        background-color: #ffac00;
+        margin-left: 1%;
+        border-radius: 3px;
+   }
+    #hotels-stay h1{
+        text-align: center;
+        margin-top: 1em;
+   }
+    #hotels-stay h3{
+        text-align: center;
+        width:90%;
+        margin: 2em auto 2em;
+        font-size: 1.2em;
+   }
+    #list-of-hotels{
+        display: grid;
+        width: 1000px;
+        margin: auto;
+        grid-template-columns: 33% 33% 33%;
+   }
+    .hotels{
+        margin: 3em 0;
+        margin: auto;
+   }
+    .hotels h5{
+        text-align: center;
+        font-size: 1.3em;
+        line-height: 1.2;
+        margin-top: 1em;
+   }
+    .hotels ul li{
+        font-size: 0.8em;
+        text-align: center;
+        list-style-type: none;
+   }
+    .hotels a{
+        background-color: #ff8800;
+        width:180px;
+        color:white;
+        text-decoration: none;
+        padding: 1em 0em;
+        border-radius: 0.4em;
+        display:block;
+        text-align: center;
+        margin: 2em auto;
+   }
+    .hotels a:hover{
+        background-color: #ff7b00;
+   }
+    .hotels img{
+        width:90%;
+        display: block;
+        margin: auto;
+   }
+   /*Events*/
+    #events input[type = "search"]{
+        border: 2px solid rgba(104, 104, 104, 0.171);
+        box-shadow: rgba(190, 190, 190, 0.164) 1px 3px 5px;
+        width:440px;
+        height: 3em;
+        margin: 2em 0;
+        border-radius: 3px;
+        padding-left: 1em;
+   }
+    #events section:first-of-type{
+        text-align: center;
+        width:600px;
+        margin: auto;
+   }
+    #events input[type = "submit"]{
+        color:white;
+        width:100px;
+        height: 3em;
+        background-color: #ffac00;
+        margin-left: 1%;
+        border-radius: 3px;
+   }
+    #events {
+        width:1001px;
+        margin: auto;
+        box-shadow: #a1a1a138 1px 1px 21px;
+   }
+    #events h1{
+        text-align: center;
+        font-size: 1.8em;
+        padding: 1em 0;
+   }
+    #events p{
+        text-align: justify;
+        width:90%;
+        margin: 0 auto 1em;
+   }
+    #list-of-events{
+        display: grid;
+        grid-template-columns: 50% 50%;
+   }
+    #list-of-events img{
+        width:95%;
+        display: block;
+        margin: 1em auto;
+   }
+    #chamber{
+        grid-column-start: 1;
+        grid-column-end: 3;
+   }
+    #chamber img{
+        width:90%;
+   }
+    .events h3{
+        text-align: center;
+        margin: 2em 0 0 0;
+        font-size: 1.2em;
+   }
+    .events h5{
+        text-align: center;
+        margin: 0.5em 0;
+        font-size: 1em;
+   }
+    .events a{
+        background-color: #ff8800;
+        width:200px;
+        color:white;
+        text-decoration: none;
+        padding: 1em 0em;
+        border-radius: 0.4em;
+        display:block;
+        text-align: center;
+        margin: 2em auto 3em;
+   }
+    #chamber h3{
+        margin-bottom: 2em;
+   }
+   /*Contacts*/
+    #contacts input[type = "search"]{
+        border: 2px solid rgba(104, 104, 104, 0.171);
+        box-shadow: rgba(190, 190, 190, 0.164) 1px 3px 5px;
+        width:440px;
+        height: 3em;
+        margin: 2em 0;
+        border-radius: 3px;
+        padding-left: 1em;
+   }
+    #sub-search{
+        color:white;
+        width:100px;
+        height: 3em;
+        background-color: #ffac00;
+        margin-left: 1%;
+        border-radius: 3px;
+   }
+    #submitForm{
+        color:rgb(0, 0, 0);
+        width:100px;
+        height: 4em;
+        display: block;
+        background-color: #ffffff;
+        border-radius: 3px;
+        margin:2em auto;
+        text-align: center;
+        cursor: pointer;
+   }
+    #contacts{
+        width:1001px;
+        box-shadow: #a1a1a138 1px 1px 21px;
+        margin: auto;
+        padding-bottom: 3em;
+   }
+    #contacts section:first-of-type{
+        text-align: center;
+        width:600px;
+        margin: auto;
+   }
+    #contacts h1{
+        margin: 1em 0;
+        text-align: center;
+        font-size: 1.8em;
+   }
+    #contacts p{
+        text-align: justify;
+        width:95%;
+        margin: 0 auto 1em;
+   }
+    #contacts h3{
+        margin: 1em 0;
+        text-align: center;
+        font-size: 1.2em;
+   }
+    #contacts-section{
+        display: grid;
+        grid-template-columns: 50% 55%;
+        grid-template-rows: 20% 20% 20% 20% 10% 10%;
+   }
+    #contacts-section p:first-child{
+        grid-row-start: 2;
+        grid-row-end:3;
+        margin: 2em 0 0 2em;
+   }
+    #contacts-section p:last-of-type{
+        text-align: center;
+        grid-column-start:1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        width: 70%;
+        margin: 1em auto;
+   }
+    #contacts form{
+        display: block;
+        width:380px;
+        height: 450px;
+        grid-column-start:2;
+        grid-column-end:3 ;
+        grid-row-start: 1;
+        grid-row-end:5;
+        padding: 2em 0 1em;
+        border-radius: 30px;
+        background-color: #ff8800;
+   }
+    form input[type="text"]{
+        display: block;
+        box-shadow: rgba(128, 128, 128, 0.699) 1px 1px 5px;
+        border-radius: 5px;
+        padding: 0.8em 0 1em 1em;
+        width:80%;
+        margin: 0 auto;
+   }
+    form input[type="textarea"]{
+        display: block;
+        box-shadow: rgba(128, 128, 128, 0.699) 1px 1px 5px;
+        border-radius: 5px;
+        padding: 2em 0 2em 1em;
+        width:80%;
+        margin: auto;
+   }
+    form label{
+        margin: auto;
+        display: block;
+        width: 80%;
+        color:white;
+        line-height: 1.5;
+   }
+    form span{
+        color:red;
+   }
+    footer{
+        width:100%;
+        background-color: #313131;
+        color:white;
+        margin: 1em auto 0;
+   }
+    #footer-container{
+        width:1000px;
+        display: grid;
+        margin: auto;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 20% 50% 30%;
+   }
+    #social-media {
+        width:30%;
+        grid-column-start:1;
+        grid-column-end:2;
+        display: flex;
+        justify-content: center;
+        align-items: center 
+   }
+    #social-media img{
+        width:36px;
+        margin:0 0.4em;
+        height: auto;
+   }
+    #sign-up{
+        text-align: center;
+        display: block;
+        grid-column-start:2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+   }
+    #sign-up label{
+        font-size: 1em;
+        display: block;
+        line-height: 3;
+   }
+    #sign-up input[type="text"]{
+        border-radius: 5px;
+        width:260px;
+        height: 40px;
+        margin: auto;
+        display: block;
+        padding-left: 10px;
+   }
+    #sign-up input[type="submit"]{
+        border-radius: 3px;
+        width:140px;
+        font-size: 1.2em;
+        height: 40px;
+        margin-top: 1em;
+        background-color: #ffac00;
+        color:white;
+        font-weight: 600;
+   }
+    #footer-nav{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start:1;
+        grid-column-end: 3;
+        padding: 1em 0 2em;
+   }
+    footer ul{
+        list-style-type: none;
+        width:1000px;
+        text-align: left;
+   }
+    footer ul li{
+        font-size: 1em;
+        font-weight: 2;
+        display: inline;
+        margin: 0 0 0 0.7em;
+   }
+    #copyright{
+        margin: 0em 0 0 1.5em;
+        grid-column-start:1;
+        grid-column-end: 2;
+   }
+   /*End of desktop*/
+}
